@@ -1,0 +1,29 @@
+# Run
+# streamlit run app.py
+# Step 1: 🐍 Create & Activate Environment (optional)
+
+# python -m venv venv
+# source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Step 2: 💾 Install dependencies
+# pip install -r requirements.txt
+
+# Step 3: Pull DeepSeek Model
+# Make sure you have Ollama installed, then run:
+
+# ollama pull deepseek-coder
+# You can also try:
+
+# ollama pull deepseek-llm
+
+
+#📄 requirements.txt
+streamlit
+
+# Project: job_advisor_bot/
+#📦 Folder Structure:
+# job_advisor_bot/
+│
+├── app.py
+├── requirements.txt
+└── README.md (optional)
